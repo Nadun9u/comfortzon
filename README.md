@@ -7,7 +7,7 @@ Please go under edit and edit this file as needed for your project
 ### Member 3 - IT20617578 - Wijenayaka R.N.N
 ### Member 4 - IT20608668 - Saruge P.C.D.S
 ### Member 5 - IT20627232 - Karunarathna B.L.N.W
-### Member 6 - IT20622732 - Ranwala R.D.H.N
+### Member 6 - IT20622732 - Ranwala R.D.H.N (Himasha Nethmini )
 ### Member 7 - IT20121310 - Prabhath A.G.V
 ### Member 8 - IT20653972 - Maheepala S.A.D.K.H
 
