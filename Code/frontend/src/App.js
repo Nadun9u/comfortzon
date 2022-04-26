@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom"
 import './App.css';
+import logo from './logo.svg';
+import Header from './components/Header';
+
+//import CounterClass from './components/CounterClass';
+import AddOrders from './components/AddOrders';
+import AllOrders from './components/AllOrders';
+import EditOrders from './components/EditOrders';
+import View from './components/View';
+
 
 function App() {
+  useEffect(() => {}, []);
   return (
+    <BrowserRouter>
+
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+    <Routes>
+      <Route path="/add" element ={<AddOrders/>}></Route>
+      <Route path="/all" element ={<AllOrders/>}></Route> 
+      <Route path="/orderUpdate" element ={<EditOrders/>}></Route> 
+      <Route path="/orderview" element ={<View/>}></Route> 
+      
+      </Routes> 
+
     </div>
+  
+    </BrowserRouter>
   );
 }
 
